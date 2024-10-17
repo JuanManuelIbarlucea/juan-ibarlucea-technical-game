@@ -1,6 +1,6 @@
 import { EventBus } from '../EventBus';
 import { Scene } from 'phaser';
-
+  
 export class Game extends Scene
 {
     camera: Phaser.Cameras.Scene2D.Camera;
@@ -33,4 +33,5 @@ export class Game extends Scene
     {
         this.scene.start('GameOver');
     }
+    
 }
